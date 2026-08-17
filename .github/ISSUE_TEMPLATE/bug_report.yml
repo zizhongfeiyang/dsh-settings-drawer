@@ -1,0 +1,53 @@
+name: Bug Report
+description: Report a problem with Settings Drawer
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Open Settings
+        2. Open Settings Drawer
+        3. Uncheck ...
+        4. See error
+    validations:
+      required: true
+  - type: input
+    id: dsh-version
+    attributes:
+      label: DSH / EAC version
+      description: e.g. Deepseek Harness EAC 4.1.0, dsh 0.1.0-rc.7
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / environment
+      description: e.g. Chrome 120 on Windows 11
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Paste any desktop.log / dsh-web.log output or browser console errors.
+      render: text
+    validations:
+      required: false
