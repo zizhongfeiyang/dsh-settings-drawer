@@ -1,4 +1,4 @@
-# Settings Drawer (`dsh-settings-cleaner`)
+# Settings Drawer (`dsh-settings-drawer`)
 
 A DeepSeek Harness web UI plugin that lets you choose which items appear in the settings left nav.
 
@@ -31,7 +31,7 @@ dsh plugin --profile web-desktop add github:zizhongfeiyang/dsh-settings-drawer
 From the packed tarball (attached to each [release](https://github.com/zizhongfeiyang/dsh-settings-drawer/releases)):
 
 ```sh
-dsh plugin --profile web add ./dsh-settings-cleaner-1.1.1.tgz
+dsh plugin --profile web add ./dsh-settings-drawer-1.1.1.tgz
 ```
 
 After installing, restart the web service or refresh the page.
@@ -46,10 +46,16 @@ After installing, restart the web service or refresh the page.
 
 | Item | Value |
 | --- | --- |
-| npm package name | `dsh-settings-cleaner` |
+| npm package name | `dsh-settings-drawer` |
 | UI display name | 设置抽屉 / Settings Drawer |
-| localStorage key | `dsh_settings_cleaner_config_v2` |
+| localStorage key | `dsh_settings_drawer_config_v2` |
 | Default visible sections | General, Models, Plugins, Agent Presets |
+
+## Tested with
+
+- DSH 0.1.0-rc.6 / 0.1.0-rc.7
+- Deepseek Harness EAC 3.0.1 / 4.1.0
+- Chrome-based DSH web UI on Windows
 
 ## Development
 

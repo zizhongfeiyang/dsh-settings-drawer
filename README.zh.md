@@ -1,4 +1,4 @@
-# 设置抽屉（`dsh-settings-cleaner`）
+# 设置抽屉（`dsh-settings-drawer`）
 
 一个 DeepSeek Harness Web UI 插件，让你选择设置页左侧要显示哪些栏目。
 
@@ -31,7 +31,7 @@ dsh plugin --profile web-desktop add github:zizhongfeiyang/dsh-settings-drawer
 从发布包安装（每个 [Release](https://github.com/zizhongfeiyang/dsh-settings-drawer/releases) 都附了 tarball）：
 
 ```sh
-dsh plugin --profile web add ./dsh-settings-cleaner-1.1.1.tgz
+dsh plugin --profile web add ./dsh-settings-drawer-1.1.1.tgz
 ```
 
 装完后重启 Web 服务或刷新页面。
@@ -46,10 +46,16 @@ dsh plugin --profile web add ./dsh-settings-cleaner-1.1.1.tgz
 
 | 项目 | 值 |
 | --- | --- |
-| npm 包名 | `dsh-settings-cleaner` |
+| npm 包名 | `dsh-settings-drawer` |
 | 界面显示名 | 设置抽屉 / Settings Drawer |
-| localStorage 键 | `dsh_settings_cleaner_config_v2` |
+| localStorage 键 | `dsh_settings_drawer_config_v2` |
 | 默认保留栏目 | 通用、模型、插件、Agent Presets |
+
+## 测试环境
+
+- DSH 0.1.0-rc.6 / 0.1.0-rc.7
+- Deepseek Harness EAC 3.0.1 / 4.1.0
+- Windows + Chrome 内核 DSH Web UI
 
 ## 开发
 
