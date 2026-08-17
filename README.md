@@ -6,6 +6,10 @@ Unchecking an item hides it from the sidebar immediately. Core pages (General, M
 
 [中文说明](README.zh.md)
 
+## Preview
+
+![Settings Drawer](docs/screenshots/settings-drawer.png)
+
 ## Features
 
 - Hide or show any settings section from the left navigation.

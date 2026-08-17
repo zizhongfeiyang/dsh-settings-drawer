@@ -6,6 +6,10 @@
 
 [English README](README.md)
 
+## 预览
+
+![设置抽屉](docs/screenshots/settings-drawer.png)
+
 ## 功能
 
 - 隐藏或显示设置左侧导航中的任意栏目。
