@@ -1,0 +1,5 @@
+# Bundle patch: mount the settings drawer plugin.
+# The row name must match this package name.
+- insert:
+    - id: settings-cleaner
+      name: 'dsh-settings-cleaner'
