@@ -22,6 +22,9 @@
       ]
     }
   },
+  "repository": { "type": "git", "url": "git+https://github.com/zizhongfeiyang/dsh-settings-drawer.git" },
+  "homepage": "https://github.com/zizhongfeiyang/dsh-settings-drawer",
+  "bugs": { "url": "https://github.com/zizhongfeiyang/dsh-settings-drawer/issues" },
   "keywords": [
     "deepseek-harness",
     "dsh",
