@@ -15,6 +15,8 @@
 - 隐藏或显示设置左侧导航中的任意栏目。
 - 修改立即生效，并在浏览器本地持久保存。
 - 自动发现新安装插件注册的设置栏目。
+- 已删除的插件不会残留：列表只显示当前实际注册的栏目。
+- 右上角 `⟳` 可手动刷新列表，并清理本地旧配置。
 - 核心设置页默认受保护，不会误隐藏。
 - 纯前端 UI 插件，无额外服务、无网络请求。
 
@@ -35,7 +37,7 @@ dsh plugin --profile web-desktop add github:zizhongfeiyang/dsh-settings-drawer
 从发布包安装（每个 [Release](https://github.com/zizhongfeiyang/dsh-settings-drawer/releases) 都附了 tarball）：
 
 ```sh
-dsh plugin --profile web add ./dsh-settings-drawer-1.1.1.tgz
+dsh plugin --profile web add ./dsh-settings-drawer-1.2.0.tgz
 ```
 
 装完后重启 Web 服务或刷新页面。
