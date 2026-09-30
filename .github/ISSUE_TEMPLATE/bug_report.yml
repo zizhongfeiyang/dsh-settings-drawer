@@ -33,7 +33,7 @@ body:
     id: dsh-version
     attributes:
       label: DSH / EAC version
-      description: e.g. Deepseek Harness EAC 4.1.0, dsh 0.1.0-rc.7
+      description: e.g. official Desktop 0.2.0-rc.2, EAC 4.1.0, or CLI 0.1.0-rc.7; include the profile name (desktop / web / web-desktop).
     validations:
       required: true
   - type: input
